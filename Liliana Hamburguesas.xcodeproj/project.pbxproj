@@ -12,6 +12,7 @@
 		E5420A0D1EAD40FC00D23A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5420A0B1EAD40FC00D23A0A /* Main.storyboard */; };
 		E5420A0F1EAD40FC00D23A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5420A0E1EAD40FC00D23A0A /* Assets.xcassets */; };
 		E5420A121EAD40FC00D23A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5420A101EAD40FC00D23A0A /* LaunchScreen.storyboard */; };
+		E5420A1E1EAD46DD00D23A0A /* ColoresStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5420A1D1EAD46DD00D23A0A /* ColoresStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		E5420A0E1EAD40FC00D23A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5420A111EAD40FC00D23A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5420A131EAD40FC00D23A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5420A191EAD410B00D23A0A /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		E5420A1D1EAD46DD00D23A0A /* ColoresStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoresStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,18 @@
 				E5420A0E1EAD40FC00D23A0A /* Assets.xcassets */,
 				E5420A101EAD40FC00D23A0A /* LaunchScreen.storyboard */,
 				E5420A131EAD40FC00D23A0A /* Info.plist */,
+				E5420A1C1EAD411B00D23A0A /* Playgrounds */,
+				E5420A1D1EAD46DD00D23A0A /* ColoresStruct.swift */,
 			);
 			path = "Liliana Hamburguesas";
+			sourceTree = "<group>";
+		};
+		E5420A1C1EAD411B00D23A0A /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				E5420A191EAD410B00D23A0A /* MyPlayground.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5420A0A1EAD40FC00D23A0A /* ViewController.swift in Sources */,
+				E5420A1E1EAD46DD00D23A0A /* ColoresStruct.swift in Sources */,
 				E5420A081EAD40FC00D23A0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
